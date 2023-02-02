@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:400,700');
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #D5E1EF;
+}
+
+.content{
+    border-radius: 15px;
+    /* flex: 5; */
+    height: 355px;
+    width: 225px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-section{
+    width: 205px; 
+    height: 205px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qr-section img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.qr-title{
+    height: 130px;
+    width: 225px;
+    font-family: 'Outfit';
+}
+.title, .text{
+    justify-content: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+}
+.title h3{
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}    
+.text p{
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    color: gray;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For mobile */
+    
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin :20px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
