@@ -24,6 +24,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 4px 20px  rgba(123, 135, 157,.3);
 }
 
 .qr-section{
