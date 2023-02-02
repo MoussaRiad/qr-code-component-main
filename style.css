@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:400,700');
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 * 
 {
     margin: 0;
@@ -18,8 +17,8 @@ body{
 .content{
     border-radius: 15px;
     /* flex: 5; */
-    height: 355px;
-    width: 225px;
+    height: 450px;
+    width: 300px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -28,8 +27,8 @@ body{
 }
 
 .qr-section{
-    width: 205px; 
-    height: 205px;
+    width: 270px; 
+    height: 270px;
     margin: 10px;
     border-radius: 10px;
     display: flex;
@@ -43,9 +42,9 @@ body{
 
 }
 .qr-title{
-    height: 130px;
-    width: 225px;
-    font-family: 'Outfit';
+    height: 150px;
+    width: 270px;
+    font-family: 'Outfit', sans-serif;
 }
 .title, .text{
     justify-content: center;
@@ -58,6 +57,7 @@ body{
     font-weight: 700;
     font-size: 15px;
     text-align: center;
+    color: hsl(218, 44%, 22%);
 }    
 .text p{
     font-weight: 400;
