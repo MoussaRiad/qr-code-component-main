@@ -17,8 +17,8 @@ body{
 .content{
     border-radius: 15px;
     /* flex: 5; */
-    height: 430px;
-    width: 280px;
+    height: 500px;
+    width: 330px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -28,10 +28,10 @@ body{
 }
 
 .qr-section{
-    width: 260px; 
-    height: 260px;
+    width: 300px; 
+    height: 300px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,8 +43,8 @@ body{
 
 }
 .qr-title{
-    height: 150px;
-    width: 270px;
+    height: 170px;
+    width: 300px;
     font-family: 'Outfit', sans-serif;
 }
 .title, .text{
@@ -62,7 +62,7 @@ body{
 }    
 .text p{
     font-weight: 400;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
     color: lightgray;
 }
