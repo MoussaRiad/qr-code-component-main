@@ -64,7 +64,7 @@ body{
     font-weight: 400;
     font-size: 15px;
     text-align: center;
-    color: lightgray;
+    color: hsl(220, 15%, 55%);
 }
 
 @media only screen and (min-width: 768px) {
